@@ -8,7 +8,7 @@ console.log(minute);
 let prepend = hour >= 12 ? "PM" : "AM";
 console.log(prepend);
 
-let user = "Daily";
+let user = "Smokey";
 
 if (hour >= 12 && hour <= 17) {
   // afternoon = 12pm to 5pm (17)
