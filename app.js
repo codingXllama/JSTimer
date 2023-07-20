@@ -8,6 +8,7 @@ console.log(minute);
 let prepend = hour >= 12 ? "PM" : "AM";
 console.log(prepend);
 
+let myTime = hour + ":" + minute + prepend;
 let user = "Smokey";
 
 if (hour >= 12 && hour <= 17) {
@@ -24,3 +25,6 @@ if (hour >= 12 && hour <= 17) {
 } else {
   console.log(`Good Morning${user}`);
 }
+
+let currentTime = document.getElementById("currentTime");
+currentTime.innerHTML = `The current time is ${myTime}`;
